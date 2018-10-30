@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Square with two top circle</title>
+	<style>
+		.circle {
+			width: 50px;
+			height: 50px;
+			background: white;
+			text-align:center;
+			line-height:50px;
+			-moz-border-radius: 50px;
+			-webkit-border-radius: 50px;
+			border-radius: 50px;
+			border: solid 1px black;
+		}
+
+		#lc {
+			position: absolute;
+			top: 0px;
+			z-index: 1;
+		}
+
+		#rc {
+			position: absolute;
+			top: 0px;
+			left: 176px;
+			z-index: 1;
+		}
+
+		#ta {
+			position: relative;
+			width: 200px;
+			height: 100px;
+			left: 10px;
+			top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div id="lc" class="circle" > <span> 4 </span> </div>
+	<div id="rc" class="circle"> <span> 5 </span></div>
+	<textarea id="ta" cols="30" rows="10" style="resize: none; border: solid 1px black"> </textarea>
+</body>
+</html>
