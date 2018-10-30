@@ -1,0 +1,4 @@
+Commands : 
+1. $ git add -A
+2. $ git commit -am "final changes"
+3. $ git push origin master
